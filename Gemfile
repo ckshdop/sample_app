@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0.rc2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', group: [:development, :test]
+
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc2'
@@ -20,6 +22,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
 
 gem 'bootstrap-sass'
 
