@@ -1,0 +1,2 @@
+module SseeionsHelper
+end
